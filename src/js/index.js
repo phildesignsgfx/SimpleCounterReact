@@ -15,10 +15,11 @@ setInterval(() => {
 	let num1 = Math.floor(counter / 1);
 	let num2 = Math.floor(counter / 10);
 	let num3 = Math.floor(counter / 100);
+	let num4 = Math.floor(counter / 1000);
 
 	//render your react application
 	ReactDOM.render(
-		<Home digit1={num1} digit2={num2} digit3={num3} />,
+		<Home digit1={num1} digit2={num2} digit3={num3} digit4={num4} />,
 		document.querySelector("#app")
 	);
 }, 1000);

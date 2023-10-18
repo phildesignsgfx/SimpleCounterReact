@@ -13,14 +13,14 @@ const Home = (props) => {
 			<h3 class="fw-bold ">React Simple Counter </h3>
 				<div className="col-2">
 				
-				<i class="fas fa-clock fs-1 text"></i>
+				<i class="fas fa-clock fs-1 text ms-0 "></i>
 					
 				</div>
 				
                 
+				<div className="col-1 fs-3 text"></div>
 				<div className="col-1 fs-3 text">0</div>
-				<div className="col-1 fs-3 text">0</div>
-				<div className="col-1 fs-3 text">0</div>
+				<div className="col-1 fs-3 text">{props.digit4 % 10}</div>
 				<div className="col-1 fs-3 text">{props.digit3 % 10}</div>
 				<div className="col-1 fs-3 text">{props.digit2 % 10}</div> 
 				<div className="col-1 fs-3 text">{props.digit1 % 10}</div>
@@ -35,6 +35,7 @@ Home.propTypes = {
 	digit1: PropTypes.number,
 	digit2: PropTypes.number,
 	digit3: PropTypes.number,
+	digit4: PropTypes.number,
 
 };
 
