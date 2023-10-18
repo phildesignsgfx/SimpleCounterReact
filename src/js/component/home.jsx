@@ -6,9 +6,11 @@ import PropTypes from "prop-types";
 //create your first component
 const Home = (props) => {
 	return (
+		
 		<div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
 		<div className="text-center mt-5 mx-auto col-2 bg-dark text-light">
 			<div className="row d-flex justify-content-center">
+			<h3 class="fw-bold ">React Simple Counter </h3>
 				<div className="col-2">
 				
 				<i class="fas fa-clock fs-1 text"></i>
